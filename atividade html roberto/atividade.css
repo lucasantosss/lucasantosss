@@ -1,0 +1,110 @@
+.atividade{
+    width: 500px;
+    margin: 0 auto;
+}
+
+.atividade li{
+    display: inline-block;
+    text-align: right;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 50px 30px;
+    box-sizing: border-box;
+    width: 30%;
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.mamistore{
+    text-align: center;
+    max-width: 550px;
+    max-height: 550px;
+    width: auto;
+    height: auto;
+    margin-right: center;
+}
+
+.imagemmamistore{
+    text-align: center;
+    max-width: 550px;
+    max-height: 550px;
+    width: auto;
+    height: auto;
+    margin-right: center;
+}
+
+.atividade li:hover{
+    border-color: #35097a;
+}
+
+.atividade li:active{
+    border-color: #088c15;
+}
+
+.atividade li:hover h2{
+    font-size: 35px;
+}
+
+.atividade h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.atividade-descricao{
+    font-size: 50px;
+}
+
+.atividade-preco{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+header{
+    background: #ffffff;
+    padding: 20px 0;
+}
+
+.box{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 60px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+nav a:hover{
+    color: #35097a;
+    text-decoration: underline;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+footer{
+    background-image: url("imagem4.jpg");
+    color: #ffffff;
+    margin-top: 20px;
+    display: block;
+    margin: auto;
+    padding: 40px 0;
+    margin-right: auto;
+}
+
+
